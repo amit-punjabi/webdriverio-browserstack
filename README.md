@@ -1,5 +1,5 @@
 # webdriverio-browserstack
-[WebdriverIO](http://webdriver.io/) Integration with BrowserStack.
+[WebdriverIO](http://webdriver.io/) Integrat with BrowserStack.
 
 ![BrowserStack Logo](https://d98b8t1nnulk5.cloudfront.net/production/images/layout/logo-header.png?1469004780)
 
