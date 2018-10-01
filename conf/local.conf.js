@@ -2,7 +2,7 @@ var browserstack = require('browserstack-local');
 
 exports.config = {
   user: process.env.BROWSERSTACK_USERNAME,
-  key: process.env.BROWSERSTACK_ACCESS_KEY
+  key: process.env.BROWSERSTACK_ACCESS_KEY,
   
   updateJob: false,
   specs: [
