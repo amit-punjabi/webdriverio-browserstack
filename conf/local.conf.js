@@ -1,8 +1,6 @@
 var browserstack = require('browserstack-local');
 
 exports.config = {
-  user: process.env.BROWSERSTACK_USERNAME,
-  key: process.env.BROWSERSTACK_ACCESS_KEY,
 
   updateJob: false,
   specs: [
@@ -14,7 +12,9 @@ exports.config = {
     browser: 'chrome',
     name: 'local_test',
     build: 'webdriver-browserstack',
-    'browserstack.local': true
+    'browserstack.local': true,
+    user: process.env.BROWSERSTACK_USERNAME,
+  key: process.env.BROWSERSTACK_ACCESS_KEY
   }],
 
   logLevel: 'verbose',
