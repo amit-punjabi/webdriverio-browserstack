@@ -1,4 +1,6 @@
 exports.config = {
+  user: process.env.BROWSERSTACK_USERNAME,
+    key: process.env.BROWSERSTACK_ACCESS_KEY,
   
   updateJob: false,
   specs: [
@@ -10,8 +12,6 @@ exports.config = {
     browser: 'chrome',
     name: 'single_test',
     build: 'webdriver-browserstack'
-    user: process.env.BROWSERSTACK_USERNAME,
-    key: process.env.BROWSERSTACK_ACCESS_KEY
   }],
 
   logLevel: 'verbose',
