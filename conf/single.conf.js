@@ -12,7 +12,7 @@ exports.config = {
     browser: 'chrome',
     browser_version: '62.0',
     name: 'single_test',
-    browserstack.local: 'true',
+    'browserstack.local': 'true',
     build: 'webdriver-browserstack'
   }],
 
