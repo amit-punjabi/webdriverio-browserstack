@@ -10,6 +10,7 @@ exports.config = {
 
   capabilities: [{
     browser: 'chrome',
+    browser_version: '62.0',
     name: 'single_test',
     build: 'webdriver-browserstack'
   }],
