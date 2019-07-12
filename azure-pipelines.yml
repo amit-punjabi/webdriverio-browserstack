@@ -7,13 +7,12 @@ trigger:
 - master
 
 pool:
-  vmImage: 'Ubuntu-16.04'
+  vmImage: 'ubuntu-latest'
 
 steps:
 - script: export BROWSERSTACK_USERNAME='amitpunjabi2'
 - script: export BROWSERSTACK_ACCESS_KEY='Mb6R9PKpdrnkxxK3GMNE'
 - script: echo Hello, world!
-- script: git clone https://github.com/browserstack/webdriverio-browserstack.git
 - script: npm install
 - script: npm run single
   displayName: 'Run a one-line script'
