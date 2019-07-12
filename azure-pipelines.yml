@@ -1,4 +1,5 @@
 # Starter pipeline
+- task: BrowserStackResults@0
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
@@ -13,6 +14,7 @@ steps:
 - script: export BROWSERSTACK_USERNAME='amitpunjabi2'
 - script: export BROWSERSTACK_ACCESS_KEY='Mb6R9PKpdrnkxxK3GMNE'
 - script: echo Hello, world!
+- script: git clone https://github.com/browserstack/webdriverio-browserstack.git
 - script: npm install
 - script: npm run single
   displayName: 'Run a one-line script'
