@@ -30,6 +30,6 @@
   },
   "devDependencies": {
     "wdio-mocha-framework": "^0.2.11"
-  }
+  },
   "license": "MIT"
 }
